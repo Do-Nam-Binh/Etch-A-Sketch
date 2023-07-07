@@ -3,13 +3,20 @@
     padding: 0;
 }
 
+.setSize{
+    font-size: large;
+    padding: 8px 16px;
+    margin: 10px auto;
+}
 
 .container{
     margin: 50px auto;
+    display: flex;
+    flex-direction: column;
 }
 .grid{
-    width: 1000px;
-    height: 1000px;
+    width: 800px;
+    height: 800px;
     background-color: aqua;
     display: grid;     
     justify-content: center;
@@ -18,8 +25,7 @@
 .onePixel{
     height: auto;
     width: auto;
-    background-color: gray;
-    border: 1px solid black;    
+    background-color: gray;    
 }
 
 .activatedPixel{
